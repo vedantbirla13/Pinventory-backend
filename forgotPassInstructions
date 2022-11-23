@@ -1,0 +1,13 @@
+// Forgot Password process 
+#1. User clicks on forgot Password
+#2. Create a reset token (String) and save in the database.
+#3. Send reset token to user email in the form of link.
+#4. When user clicks on the link, compare the reset token 
+    in the link with that saved in the database.
+#5. If they match, then reset the user's password.
+
+// Forgot password steps
+#1. Create forgot password route.
+#2. Create token model.
+#3. Create email sender function (nodemailer).
+#4. Create controller function.
